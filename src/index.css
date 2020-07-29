@@ -4,14 +4,27 @@
 }
 
 :root {
-  --primary: #2A7AE4;
-  --black: #000000;
-  --blackLighter: #9E9E9E;
-  --grayLight: #F5F5F5;
-  --grayMedium: #e5e5e5; 
-  --white: #FFFFFF;
-  --frontEnd: #6BD1FF;
-  --backEnd: #00C86F;
+  --blue: #1C63FB;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #ff5733;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #2ff0c1;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #1C63FB;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #2ff0c1;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
 }
 
 html,
@@ -23,3 +36,9 @@ body {
 a {
   color: inherit;
 } 
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}
