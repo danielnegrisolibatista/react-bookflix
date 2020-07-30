@@ -82,7 +82,7 @@
       ]
     },
     {
-      "titulo": "Fantasia",
+      "titulo": "Fantasia / Aventura",
       "link": "",
       "cor": "#28a745",
       "link_extra": {
@@ -93,36 +93,22 @@
         {
           "titulo": "Resenha #13: Série Fallen completa | Bruna Fazio",
           "url": "https://www.youtube.com/watch?v=aFSNsdU1pnA"
-        } 
-      ]
-    },
-    {
-      "titulo": "Ficção",
-      "link": "",
-      "cor": "#dc3545",
-      "link_extra": {
-        "text": "",
-        "url": ""
-      },
-      "videos": [
+        },
+        {
+          "titulo": "FANTASIAS EM VOLUME ÚNICO | Resenhando Sonhos",
+          "url": "https://www.youtube.com/watch?v=dHBbgl1RPr0"
+        },
+        {
+          "titulo": "UNIVERSOS FAVORITOS EM LIVROS DE FANTASIA!! | Kabook TV",
+          "url": "https://www.youtube.com/watch?v=6HNpEtodWE0"
+        },
+        {
+          "titulo": "FANTASIA E AVENTURA: SAGA DE DATAHRIUN, GRACIELE RUIZ",
+          "url": "https://www.youtube.com/watch?v=uk144khG6i0"
+        },
         {
           "titulo": "TRILOGIA CORTE DE ESPINHOS E ROSAS: O VEREDITO",
           "url": "https://www.youtube.com/watch?v=op5XR3oolTE"
-        } 
-      ]
-    },
-    {
-      "titulo": "História",
-      "link": "",
-      "cor": "#343a40",
-      "link_extra": {
-        "text": "",
-        "url": ""
-      },
-      "videos": [
-        {
-          "titulo": "Resenha [Profunda] Livro Homo Deus Uma Breve História do Amanhã - Yuval Harari | Resumo / Sinopse",
-          "url": "https://www.youtube.com/watch?v=mkHMpMbwrTE"
         } 
       ]
     }

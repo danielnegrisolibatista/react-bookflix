@@ -1,6 +1,8 @@
 import React from 'react';
 import { FooterBase } from './styles';
 
+import Book from '../../components/Book';
+
 function Footer() {
   return (
     <FooterBase>
@@ -19,6 +21,7 @@ function Footer() {
           <img style={{ width: '150px' }} src="https://www.alura.com.br/assets/img/imersoes/react/imersao-react-logo.1594044142.svg" alt="Imersão React" />
         </a>          
       </p>
+      <Book/>
     </FooterBase>
   );
 }

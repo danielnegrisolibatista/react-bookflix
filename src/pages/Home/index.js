@@ -5,6 +5,8 @@ import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
 
+import './Home.css'
+
 function Home() {
   return (
     <div style={{ background: "#F5F5F5" }}>
@@ -34,13 +36,6 @@ function Home() {
         category={dadosIniciais.categorias[3]}
       />      
 
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />      
 
       <Footer />
     </div>

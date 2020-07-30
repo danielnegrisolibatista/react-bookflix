@@ -9,9 +9,14 @@ import Button from '../Button'
 function Menu() {
   return (
     <nav className="Menu">
-      <Link to="/">
-        <img className="Logo" src={Logo} alt="Bookflix Logo"/>
-      </Link>
+      <div>
+        <Link to="/">
+          <img className="Logo" src={Logo} alt="Bookflix Logo"/>        
+        </Link>
+        <div className="ribbon"></div>
+        <div className="LogoDescription">Assista antes de começar a ler!</div>
+      </div>
+      
 
       <Button as={Link} className="ButtonLink" to="/cadastro/video">
         Novo vídeo
