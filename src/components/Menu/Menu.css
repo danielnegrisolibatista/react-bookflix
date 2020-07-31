@@ -7,27 +7,6 @@
   }
 }
 
-.LogoDescription {
-  position: fixed;
-  left: 0;
-  right: 0;
-  padding-top: 0;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-style: normal;
-  font-size: 12px;
-}
-
-@media (max-width: 800px) {
-  .LogoDescription {
-    height: 40px;
-    width: 50%;
-    top: 0;
-    padding-top: 3%;
-    left: 330px;
-  }
-}
-
 .Menu {
   width: 100%;
   height: 94px;
@@ -49,17 +28,32 @@
 
   transition: top 0.3s;
 }
+
+.texto-header{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 12px;
+}
+
+@media (max-width: 800px) {
+  .texto-header {
+    font-size: 10px;
+  }
+}
+
 body {
   --bodyPaddingTop: 94px;
   padding-top: var(--bodyPaddingTop);
 }
 @media (max-width: 800px) {
   .Menu {
-    height: 40px;
+    height: 50px;
     justify-content: center;
   }
   body {
-    --bodyPaddingTop: 40px;
+    --bodyPaddingTop: 50px;
     padding-top: var(--bodyPaddingTop);
   }
 }

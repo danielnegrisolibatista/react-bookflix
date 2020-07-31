@@ -1,0 +1,28 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "name": "Suspense e Mistério",
+      "description": "Suspense e Mistério",
+      "color": "#6f42c1"
+    },
+    {
+      "id": 2,
+      "name": "Romance",
+      "description": "Romance",
+      "color": "#e83e8c"
+    },
+    {
+      "id": 3,
+      "name": "Infantojuvenil",
+      "description": "Infantojuvenil",
+      "color": "#ffc107"
+    },
+    {
+      "id": 4,
+      "name": "Fantasia / Aventura",
+      "description": "Fantasia / Aventura",
+      "color": "#28a745"
+    }
+  ]
+}

@@ -14,7 +14,9 @@ function Menu() {
           <img className="Logo" src={Logo} alt="Bookflix Logo"/>        
         </Link>
         <div className="ribbon"></div>
-        <div className="LogoDescription">Assista antes de começar a ler!</div>
+        <div className="texto-header">
+          Assista antes de ler!
+        </div>  
       </div>
       
 
