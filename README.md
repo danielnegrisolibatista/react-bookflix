@@ -9,7 +9,6 @@
 <h3>🔖 Descrição</h3>
 <p>Criação do AluraFlix, app web utilizando React na semana da #ImersãoReact da Alura.<p>
 
-
 <h3>🚀 Tecnologias</h3>
 <ul>
     <li><a href="https://reactjs.org/" target="_blank">React</a></li>
@@ -20,14 +19,18 @@
 
 <h3>ℹ️ Como usar</h3>
 
-    # Clone esse repositório
+# Clone esse repositório
+
     $ git clone https://github.com/danielnegrisolibatista/react-bookflix.git
     
     # Instalar dependências
     $ npm install
     
-    # Executar
+    # Executar para executar o Servidor
     $ npm start
+
+    # Executar para executar o Servidor e Front
+    $ npm run dev
 
 
 <h3>📝 Licença</h3>

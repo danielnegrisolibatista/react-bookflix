@@ -32,17 +32,17 @@ Label.Text = styled.span`
 `;
 
 export const Input = styled.input`
-  background: var(--light);
-  color: var(--dark);
+  background: var(--white);
+  color: var(--secondary);
   display: block;
   width: 100%;
   height: 57px;
   font-size: 18px;
   
-  outline: 0;
+
   border: 0;
   border-top: 1px solid transparent;
-  border-bottom: 1px solid var(--gray);
+  border-bottom: 1px solid var(--white);
   
   padding: 16px 16px;
   margin-bottom: 45px;

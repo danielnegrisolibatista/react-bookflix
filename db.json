@@ -2,27 +2,146 @@
   "categorias": [
     {
       "id": 1,
-      "name": "Suspense e Mistério",
-      "description": "Suspense e Mistério",
-      "color": "#6f42c1"
+      "title": "Suspense e Mistério",
+      "color": "#6f42c1",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
     },
     {
       "id": 2,
-      "name": "Romance",
+      "title": "Romance",
       "description": "Romance",
-      "color": "#e83e8c"
+      "color": "#e83e8c",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
     },
     {
       "id": 3,
-      "name": "Infantojuvenil",
+      "title": "Infantojuvenil",
       "description": "Infantojuvenil",
-      "color": "#ffc107"
+      "color": "#ffc107",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
     },
     {
       "id": 4,
-      "name": "Fantasia / Aventura",
+      "title": "Fantasia / Aventura",
       "description": "Fantasia / Aventura",
-      "color": "#28a745"
+      "color": "#28a745",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "title": "O HOMEM DE GIZ, de C. J. Tudor | Nuvem Literária",
+      "url": "https://www.youtube.com/watch?v=bWjN5aGoGLk",
+      "categoriaId": 1
+    },
+    {
+      "id": 2,
+      "title": "O silêncio dos inocentes, Thomas Harris",
+      "url": "https://www.youtube.com/watch?v=Gd6dVIOuumY",
+      "categoriaId": 1
+    },
+    {
+      "id": 3,
+      "title": "IT, A COISA (Stephen King)",
+      "url": "https://www.youtube.com/watch?v=e_4RBc8egdw",
+      "categoriaId": 1
+    },
+    {
+      "id": 4,
+      "title": "Caixa de Pássaros - RESENHA",
+      "url": "https://www.youtube.com/watch?v=zh5HvlW-SRg",
+      "categoriaId": 1
+    },
+    {
+      "id": 5,
+      "title": "Garota Exemplar - Lully de Verdade 308",
+      "url": "https://www.youtube.com/watch?v=Wu3vs1lwJbc",
+      "categoriaId": 1
+    },
+    {
+      "id": 6,
+      "title": "3 Livros para quem gosta de Romance | Livros & Fuxicos",
+      "url": "https://www.youtube.com/watch?v=s53RPv7fmK8",
+      "categoriaId": 2
+    },
+    {
+      "id": 7,
+      "title": "A MENINA QUE ROUBAVA LIVROS, MARKUS ZUSAK (#53)",
+      "url": "https://www.youtube.com/watch?v=3QgKqOTdYao",
+      "categoriaId": 2
+    },
+    {
+      "id": 8,
+      "title": "TETO PARA DOIS, de Beth O'Leary | Ju Cirqueira",
+      "url": "https://www.youtube.com/watch?v=VUL0rH6dtVo",
+      "categoriaId": 2
+    },
+    {
+      "id": 9,
+      "title": "Amor & Gelato (Jenna Evans Welch) | Resenha | por Borogodó",
+      "url": "https://www.youtube.com/watch?v=Iph3pydJoeY",
+      "categoriaId": 2
+    },
+    {
+      "id": 10,
+      "title": "Resenha de Livro: Extraordinário",
+      "url": "https://www.youtube.com/watch?v=-QJHo7u1NYw",
+      "categoriaId": 3
+    },
+    {
+      "id": 11,
+      "title": "[Minha Vida Literária] Top 5 || Livros Infanto-Juvenis",
+      "url": "https://www.youtube.com/watch?v=YYIFkK0nWRk",
+      "categoriaId": 3
+    },
+    {
+      "id": 12,
+      "title": "LIVROS JOVENS NACIONAIS | Patricia Lima",
+      "url": "https://www.youtube.com/watch?v=m-7BbBbSdAQ",
+      "categoriaId": 3
+    },
+    {
+      "id": 13,
+      "title": "Resenha #13: Série Fallen completa | Bruna Fazio",
+      "url": "https://www.youtube.com/watch?v=aFSNsdU1pnA",
+      "categoriaId": 4
+    },
+    {
+      "id": 14,
+      "title": "FANTASIAS EM VOLUME ÚNICO | Resenhando Sonhos",
+      "url": "https://www.youtube.com/watch?v=dHBbgl1RPr0",
+      "categoriaId": 4
+    },
+    {
+      "id": 15,
+      "title": "UNIVERSOS FAVORITOS EM LIVROS DE FANTASIA!! | Kabook TV",
+      "url": "https://www.youtube.com/watch?v=6HNpEtodWE0",
+      "categoriaId": 4
+    },
+    {
+      "id": 16,
+      "title": "FANTASIA E AVENTURA: SAGA DE DATAHRIUN, GRACIELE RUIZ",
+      "url": "https://www.youtube.com/watch?v=uk144khG6i0",
+      "categoriaId": 4
+    },
+    {
+      "id": 17,
+      "title": "TRILOGIA CORTE DE ESPINHOS E ROSAS: O VEREDITO",
+      "url": "https://www.youtube.com/watch?v=op5XR3oolTE",
+      "categoriaId": 4
     }
   ]
 }

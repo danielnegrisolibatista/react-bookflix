@@ -1,113 +1,113 @@
 {
   "categorias": [
     {
-      "titulo": "Suspense e Mistério",
+      "title": "Suspense e Mistério",
       "link": "",
-      "cor": "#6f42c1",
+      "color": "#6f42c1",
       "link_extra": {
         "text": "",
         "url": ""
       },
       "videos": [
         {
-          "titulo": "O HOMEM DE GIZ, de C. J. Tudor | Nuvem Literária",
+          "title": "O HOMEM DE GIZ, de C. J. Tudor | Nuvem Literária",
           "url": "https://www.youtube.com/watch?v=bWjN5aGoGLk"
         },
         {
-          "titulo": "O silêncio dos inocentes, Thomas Harris",
+          "title": "O silêncio dos inocentes, Thomas Harris",
           "url": "https://www.youtube.com/watch?v=Gd6dVIOuumY"
         },
         {
-          "titulo": "IT, A COISA (Stephen King)",
+          "title": "IT, A COISA (Stephen King)",
           "url": "https://www.youtube.com/watch?v=e_4RBc8egdw"
         },
         {
-          "titulo": "Caixa de Pássaros - RESENHA",
+          "title": "Caixa de Pássaros - RESENHA",
           "url": "https://www.youtube.com/watch?v=zh5HvlW-SRg"
         },
         {
-          "titulo": "Garota Exemplar - Lully de Verdade 308",
+          "title": "Garota Exemplar - Lully de Verdade 308",
           "url": "https://www.youtube.com/watch?v=Wu3vs1lwJbc"
         }    
       ]
     },
     {
-      "titulo": "Romance",
+      "title": "Romance",
       "link": "",
-      "cor": "#e83e8c",
+      "color": "#e83e8c",
       "link_extra": {
         "text": "",
         "url": ""
       },
       "videos": [
         {
-          "titulo": "3 Livros para quem gosta de Romance | Livros & Fuxicos",
+          "title": "3 Livros para quem gosta de Romance | Livros & Fuxicos",
           "url": "https://www.youtube.com/watch?v=s53RPv7fmK8"
         },
         {
-          "titulo": "A MENINA QUE ROUBAVA LIVROS, MARKUS ZUSAK (#53)",
+          "title": "A MENINA QUE ROUBAVA LIVROS, MARKUS ZUSAK (#53)",
           "url": "https://www.youtube.com/watch?v=3QgKqOTdYao"
         },
         {
-          "titulo": "TETO PARA DOIS, de Beth O'Leary | Ju Cirqueira",
+          "title": "TETO PARA DOIS, de Beth O'Leary | Ju Cirqueira",
           "url": "https://www.youtube.com/watch?v=VUL0rH6dtVo"
         },
         {
-          "titulo": "Amor & Gelato (Jenna Evans Welch) | Resenha | por Borogodó",
+          "title": "Amor & Gelato (Jenna Evans Welch) | Resenha | por Borogodó",
           "url": "https://www.youtube.com/watch?v=Iph3pydJoeY"
         }         
       ]
     },
     {
-      "titulo": "Infantojuvenil ",
+      "title": "Infantojuvenil ",
       "link": "",
-      "cor": "#ffc107",
+      "color": "#ffc107",
       "link_extra": {
         "text": "",
         "url": ""
       },
       "videos": [
         {
-          "titulo": "Resenha de Livro: Extraordinário",
+          "title": "Resenha de Livro: Extraordinário",
           "url": "https://www.youtube.com/watch?v=-QJHo7u1NYw"
         },
         {
-          "titulo": "[Minha Vida Literária] Top 5 || Livros Infanto-Juvenis",
+          "title": "[Minha Vida Literária] Top 5 || Livros Infanto-Juvenis",
           "url": "https://www.youtube.com/watch?v=YYIFkK0nWRk"
         },
         {
-          "titulo": "LIVROS JOVENS NACIONAIS | Patricia Lima",
+          "title": "LIVROS JOVENS NACIONAIS | Patricia Lima",
           "url": "https://www.youtube.com/watch?v=m-7BbBbSdAQ"
         }      
       ]
     },
     {
-      "titulo": "Fantasia / Aventura",
+      "title": "Fantasia / Aventura",
       "link": "",
-      "cor": "#28a745",
+      "color": "#28a745",
       "link_extra": {
         "text": "",
         "url": ""
       },
       "videos": [
         {
-          "titulo": "Resenha #13: Série Fallen completa | Bruna Fazio",
+          "title": "Resenha #13: Série Fallen completa | Bruna Fazio",
           "url": "https://www.youtube.com/watch?v=aFSNsdU1pnA"
         },
         {
-          "titulo": "FANTASIAS EM VOLUME ÚNICO | Resenhando Sonhos",
+          "title": "FANTASIAS EM VOLUME ÚNICO | Resenhando Sonhos",
           "url": "https://www.youtube.com/watch?v=dHBbgl1RPr0"
         },
         {
-          "titulo": "UNIVERSOS FAVORITOS EM LIVROS DE FANTASIA!! | Kabook TV",
+          "title": "UNIVERSOS FAVORITOS EM LIVROS DE FANTASIA!! | Kabook TV",
           "url": "https://www.youtube.com/watch?v=6HNpEtodWE0"
         },
         {
-          "titulo": "FANTASIA E AVENTURA: SAGA DE DATAHRIUN, GRACIELE RUIZ",
+          "title": "FANTASIA E AVENTURA: SAGA DE DATAHRIUN, GRACIELE RUIZ",
           "url": "https://www.youtube.com/watch?v=uk144khG6i0"
         },
         {
-          "titulo": "TRILOGIA CORTE DE ESPINHOS E ROSAS: O VEREDITO",
+          "title": "TRILOGIA CORTE DE ESPINHOS E ROSAS: O VEREDITO",
           "url": "https://www.youtube.com/watch?v=op5XR3oolTE"
         } 
       ]

@@ -1,44 +1,59 @@
-import React from 'react';
-import Menu from '../../components/Menu'
-import dadosIniciais from '../../data/dados_iniciais.json';
+import React, { useEffect, useState } from 'react';
+
+import PageDefault from '../../components/PageDefault';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
+import Loading from '../../components/Loading';
 
-import './Home.css'
+import categoriasRepository from '../../repositories/categorias';
+
+import './Home.css';
 
 function Home() {
+  const [initialValues, setInitialValues] = useState([]);
+
+  useEffect(() => {
+    categoriasRepository.getAllWithVideos()
+      .then((response) => {
+        setInitialValues(response);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
+
   return (
-    <div style={{ background: "#F5F5F5" }}>
-      <Menu />
+    <PageDefault paddingAll={0}>
 
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={
-          "Assassinato e sinais misteriosos em uma trama para fãs de Stranger Things e Stephen King. Em 1986, Eddie e os amigos passam a maior parte dos dias andando de bicicleta pela pacata vizinhança em busca de aventuras. Os desenhos a giz são seu código secreto: homenzinhos rabiscados no asfalto; mensagens que só eles entendem. Mas um desenho misterioso leva o grupo de crianças até um corpo desmembrado e espalhado em um bosque. Depois disso, nada mais é como antes."}
-      />
+      {initialValues.length === 0 && (<Loading />)}
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
+      {initialValues.map((categoria, index) => {
+        if (index === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={initialValues[0].videos[0].title}
+                url={initialValues[0].videos[0].url}
+                videoDescription="Assassinato e sinais misteriosos em uma trama para fãs de Stranger Things e Stephen King. Em 1986, Eddie e os amigos passam a maior parte dos dias andando de bicicleta pela pacata vizinhança em busca de aventuras. Os desenhos a giz são seu código secreto: homenzinhos rabiscados no asfalto; mensagens que só eles entendem. Mas um desenho misterioso leva o grupo de crianças até um corpo desmembrado e espalhado em um bosque. Depois disso, nada mais é como antes."
+              />
 
-      <Carousel
-        category={dadosIniciais.categorias[1]}
-      />
+              <Carousel
+                ignoreFirstVideo
+                category={initialValues[0]}
+              />
+            </div>
+          );
+        }
 
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />      
+        return (
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })}
 
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />      
-
-
-      <Footer />
-    </div>
+    </PageDefault>
   );
 }
 
